@@ -4,6 +4,7 @@ metadata:
   name: "sample"
   annotations:
     backstage.io/techdocs-ref: dir:.
+    backstage.io/kubernetes-id: sample
 spec:
   type: service
   owner: user:ymaki
