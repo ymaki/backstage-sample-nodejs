@@ -6,3 +6,6 @@ spec:
   type: service
   owner: user:ymaki
   lifecycle: experimental
+metadata:
+  annotations:
+    backstage.io/techdocs-ref: dir:.
