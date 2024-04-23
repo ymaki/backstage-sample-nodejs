@@ -2,11 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "sample"
-spec:
-  type: service
-  owner: ymaki
-  lifecycle: experimental
-metadata:
   annotations:
     backstage.io/techdocs-ref:
       dir: .
+spec:
+  type: service
+  owner: user:ymaki
+  lifecycle: experimental
