@@ -4,8 +4,9 @@ metadata:
   name: "sample"
 spec:
   type: service
-  owner: user:ymaki
+  owner: ymaki
   lifecycle: experimental
 metadata:
   annotations:
-    backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref:
+      dir: .
