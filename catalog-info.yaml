@@ -6,6 +6,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: sample
     backstage.io/kubernetes-label-selector: 'backstage.io/managed-by=backstage'
+    janus-idp.io/tekton : sample
 spec:
   type: service
   owner: user:ymaki
