@@ -5,6 +5,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: sample
+    backstage.io/kubernetes-label-selector: 'backstage.io/managed-by=backstage'
 spec:
   type: service
   owner: user:ymaki
